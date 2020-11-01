@@ -1,9 +1,9 @@
 {
-  "name": "Bitwarden RS",
+  "name": "Artemis Bitwarden RS",
   "version": "0.6.0",
   "slug": "bitwarden",
   "description": "Open source password management solution",
-  "url": "https://github.com/hassio-addons/addon-bitwarden",
+  "url": "https://github.com/nubicula/addon-bitwarden",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:7277]",
   "startup": "services",
   "arch": [
