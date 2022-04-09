@@ -1,6 +1,6 @@
 {
     "name": "Plex Media Server with NAS",
-    "version": "2.4.2-dht3",
+    "version": "2.4.2-dht4",
     "slug": "plex",
     "description": "Recorded media, live TV, online news, and podcasts ready to stream.",
     "url": "https://github.com/nubicula/addon-plex",
@@ -11,7 +11,7 @@
     "boot": "auto",
     "image": "dianlight/{arch}-addon-plex",
     "ports": {
-        "1900/udp": 1900,
+        "1900/udp": 1901,
         "3005/tcp": 3005,
         "8324/tcp": 8324,
         "32400/tcp": 32400,
