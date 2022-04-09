@@ -1,4 +1,4 @@
-# ~~Home Assistant Community Add-on~~ Dianlight: Plex Media Server
+# ~~Home Assistant Community Add-on~~ Nubicula: Plex Media Server
 
 Based on original **Home Assistant Community Add-on: Plex Media Server**
 
@@ -12,7 +12,7 @@ and streams them to all of your devices.
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
 
-1. Search for the “Plex Media Server” add-on in the dianlight add-on store
+1. Search for the “Plex Media Server” add-on in the Nubicula add-on store
    and install it.
 1. Surf to <https://www.plex.tv/claim> and get your claim token.
 1. Update the add-on config with the claim code you've got in the previous step.

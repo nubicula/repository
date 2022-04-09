@@ -1,4 +1,4 @@
-# ~~Home Assistant Community Add-on~~ Dianlight: Plex Media Server
+# ~~Home Assistant Community Add-on~~ Nubicula: Plex Media Server
 
 Based on original **Home Assistant Community Add-on: Plex Media Server**
 
