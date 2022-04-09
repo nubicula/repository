@@ -9,7 +9,7 @@
     "arch": ["aarch64", "amd64", "armv7", "i386"],
     "map": ["media:rw", "share:rw", "ssl"],
     "boot": "auto",
-    "image": "nubicula/{arch}-addon-plex",
+    "image": "dianlight/{arch}-addon-plex",
     "ports": {
         "1900/udp": 1900,
         "3005/tcp": 3005,
