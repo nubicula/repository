@@ -8,8 +8,12 @@
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "services",
   "boot": "auto",
+  "hassio_role": "default",
+  "auth_api": true,
+  "host_network": true,
   "hassio_api": true,
   "ports": {"8501/tcp":"8501"},
+  "8501/tcp": "Web interface (Not required for Ingress)",
   "options": {
     "model_path": "/config/models",
     "log_level": "info"
