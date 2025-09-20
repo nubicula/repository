@@ -1,10 +1,11 @@
 {
   "name": "AnythingLLM",
+  "version": "0.1",
   "slug": "anythingllm",
   "description": "Run AnythingLLM inside Home Assistant and expose its web GUI.",
-  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "url": "https://github.com/nubicula/anythingllm_addon",
   "webui": "http://[HOST]:[PORT:8501]",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "services",
   "arch": ["aarch64", "amd64", "armv7", "i386"],
   "boot": "auto",
@@ -17,5 +18,8 @@
   "schema": {
     "model_path": "?str",
     "log_level": "?list(info|debug|warning|error)"
-  }
+  },
+  "image": "nubicula/anythingllm_addon"
 }
+
+
