@@ -13,7 +13,9 @@
   "host_network": true,
   "hassio_api": true,
   "ports": {"8501/tcp":"8501"},
-  "8501/tcp": "Web interface (Not required for Ingress)",
+  "ports_description": {
+    "8501/tcp": "Web interface (Not required for Ingress)",
+  },
   "options": {
     "model_path": "/config/models",
     "log_level": "info"
