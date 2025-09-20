@@ -1,0 +1,9 @@
+{
+    "options": {
+      "model_path": "/config/models",
+      "log_level": "info"
+    },
+    "port_mapping": [
+      {"host_port": 8501, "container_port": 8501}
+    ]
+  }

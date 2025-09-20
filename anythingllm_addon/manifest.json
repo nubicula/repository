@@ -1,0 +1,18 @@
+{
+  "name": "AnythingLLM",
+  "slug": "anythingllm",
+  "description": "Run AnythingLLM inside Home Assistant and expose its web GUI.",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "services",
+  "boot": "auto",
+  "hassio_api": true,
+  "ports": {"8501/tcp":"8501"},
+  "options": {
+    "model_path": "/config/models",
+    "log_level": "info"
+  },
+  "schema": {
+    "model_path": "?str",
+    "log_level": "?list(info|debug|warning|error)"
+  }
+}
