@@ -1,9 +1,21 @@
 {
-    "options": {
-      "model_path": "/config/models",
-      "log_level": "info"
-    },
-    "port_mapping": [
-      {"host_port": 8501, "container_port": 8501}
-    ]
+  "name": "AnythingLLM",
+  "slug": "anythingllm",
+  "description": "Run AnythingLLM inside Home Assistant and expose its web GUI.",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "url": "https://github.com/nubicula/anythingllm_addon",
+  "webui": "http://[HOST]:[PORT:8501]",
+  "startup": "services",
+  "arch": ["aarch64", "amd64", "armv7", "i386"],
+  "boot": "auto",
+  "hassio_api": true,
+  "ports": {"8501/tcp":"8501"},
+  "options": {
+    "model_path": "/config/models",
+    "log_level": "info"
+  },
+  "schema": {
+    "model_path": "?str",
+    "log_level": "?list(info|debug|warning|error)"
   }
+}
